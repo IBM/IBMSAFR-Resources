@@ -27,19 +27,19 @@ processing.
 
 ## Contents
 
-GVBQCDBT        Create Database and tablespace
-GVBQCTBC        Create C_* Tables
-GVBQCTBE        Create E_* Tables
-GVBQCTBX        Create X_* Tables
-GVBQCLBT        Create Logic Table with LOB column
-GVBQCIXC        Create C_* Indexes
-GVBQCIXE        Create E_* Indexes
-GVBQCIXX        Create X_* Indexes
-GVBQCFKY        Create Foreign Keys
-GVBQINCO        Insert CODETABLE rows
-GVBQINTB        Insert all other rows
-GVBQINNX        Insert C_NEXTKEYID rows
-GVBQDRAL        Drop the entire schema
+- GVBQCDBT        Create Database and tablespace
+- GVBQCTBC        Create C_* Tables
+- GVBQCTBE        Create E_* Tables
+- GVBQCTBX        Create X_* Tables
+- GVBQCLBT        Create Logic Table with LOB column
+- GVBQCIXC        Create C_* Indexes
+- GVBQCIXE        Create E_* Indexes
+- GVBQCIXX        Create X_* Indexes
+- GVBQCFKY        Create Foreign Keys
+- GVBQINCO        Insert CODETABLE rows
+- GVBQINTB        Insert all other rows
+- GVBQINNX        Insert C_NEXTKEYID rows
+- GVBQDRAL        Drop the entire schema
 
 ## Usage
 
@@ -60,16 +60,16 @@ the tag name. The tags to replace in the scripts are
 
 From the existing DB2 installation
 
-&$DBSUB.    Subsystem name
-&$DBUSER.   User ID with DBA access
+- &$DBSUB.    Subsystem name
+- &$DBUSER.   User ID with DBA access
 
 DB2 objects created by the scripts
 
-&$DBSG.     Storage Group
-&$DBNAME.   Database
-&$DBTS.     Tablespace
-&$DBSCH.    Schema
-&$DBTSLB.   LOB Tablespace
+- &$DBSG.     Storage Group
+- &$DBNAME.   Database
+- &$DBTS.     Tablespace
+- &$DBSCH.    Schema
+- &$DBTSLB.   LOB Tablespace
 
 See comments at the start of each script to determine what tags are replaced.
 
@@ -79,18 +79,18 @@ a SQL terminator.
 
 SQL Script Files (in order of execution)
 
-GVBQCDBT        Create Database and tablespace
-GVBQCTBC        Create C_* Tables
-GVBQCTBE        Create E_* Tables
-GVBQCTBX        Create X_* Tables
-GVBQCLBT        Create Logic Table with LOB column
-GVBQCIXC        Create C_* Indexes
-GVBQCIXE        Create E_* Indexes
-GVBQCIXX        Create X_* Indexes
-GVBQCFKY        Create Foreign Keys
-GVBQINCO        Insert CODETABLE rows
-GVBQINTB        Insert all other rows
-GVBQINNX        Insert C_NEXTKEYID rows
+- GVBQCDBT        Create Database and tablespace
+- GVBQCTBC        Create C_* Tables
+- GVBQCTBE        Create E_* Tables
+- GVBQCTBX        Create X_* Tables
+- GVBQCLBT        Create Logic Table with LOB column
+- GVBQCIXC        Create C_* Indexes
+- GVBQCIXE        Create E_* Indexes
+- GVBQCIXX        Create X_* Indexes
+- GVBQCFKY        Create Foreign Keys
+- GVBQINCO        Insert CODETABLE rows
+- GVBQINTB        Insert all other rows
+- GVBQINNX        Insert C_NEXTKEYID rows
 
 n.b. GVBQDRAL can be used to restart or remove any database/schema.
 
