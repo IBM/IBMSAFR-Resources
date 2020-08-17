@@ -92,7 +92,7 @@ GVBQINCO        Insert CODETABLE rows
 GVBQINTB        Insert all other rows
 GVBQINNX        Insert C_NEXTKEYID rows
 
-n.b. GVBQDRAL can be used to restart or remove any database/schema
+n.b. GVBQDRAL can be used to restart or remove any database/schema.
 
 4. Install Stored Procedures in the schema (see Stored Procedure component).
 
