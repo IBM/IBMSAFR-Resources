@@ -41,6 +41,36 @@ processing.
 - GVBQINNX        Insert C_NEXTKEYID rows
 - GVBQDRAL        Drop the entire schema
 
+- GVBPCLEE Clear an environment                                                        
+- GVBPDELE Delete an environment                                               
+- GVBPENVD Determines whether an environment is empty                          
+- GVBPINIT Initialize an environment                                           
+- GVBPGLFD Generate logical file dependencies                                  
+- GVBPGJND Generate lookup dependencies                                        
+- GVBPGLRD Generate logical record dependencies                                
+- GVBPGPFD Generate physical file dependencies                                 
+- GVBPVWDE Generate view dependencies                                          
+- GVBPTARC Get dependencies for VW,LK,LR,LF,PF (calls Get SPs below)           
+- GVBPTDEX Get user exit dependencies                                          
+- GVBPTDFL Get LR field dependencies                                           
+- GVBPTDLF Get logical file dependencies (calls GVBPGLFD)                      
+- GVBPTDJN Get look up dependencies (calls GVBPGJND)                           
+- GVBPTDLR Get logical record dependencies (calls GVBPGLRD)                    
+- GVBPTDPF Get physical file dependencies (calls GVBPGPFD)                     
+- GVBPTDVW Get view dependencies (calls GVBPVWDE)                              
+- GVBPVWPR Get view properties                                                 
+- GVBPGVER Get the version of the stored procedure build                       
+- GVBPINJF Insert lookup path source fields                                    
+- GVBPINLR Insert logical record fields                                        
+- GVBPINSE Persist component edit rights                                       
+- GVBPINVC Insert view columns                                                 
+- GVBPINVS Insert view column sources                                          
+- GVBPUPFD Update logical record fields                                        
+- GVBPUPVW Update view columns                                                 
+- GVBPUPVC Update view column sources                                          
+- GVBPUPLO Update view logic                                                   
+
+
 ## Usage
 
 1. Copy *.SQL files to a z/OS system.
@@ -94,5 +124,33 @@ SQL Script Files (in order of execution)
 
 n.b. GVBQDRAL can be used to restart or remove any database/schema.
 
-4. Install Stored Procedures in the schema (see Stored Procedure component).
+4. Install Stored Procedures in the schema in order of processing
 
+- GVBPCLEE Clear an environment                                                        
+- GVBPDELE Delete an environment                                               
+- GVBPENVD Determines whether an environment is empty                          
+- GVBPINIT Initialize an environment                                           
+- GVBPGLFD Generate logical file dependencies                                  
+- GVBPGJND Generate lookup dependencies                                        
+- GVBPGLRD Generate logical record dependencies                                
+- GVBPGPFD Generate physical file dependencies                                 
+- GVBPVWDE Generate view dependencies                                          
+- GVBPTARC Get dependencies for VW,LK,LR,LF,PF (calls Get SPs below)           
+- GVBPTDEX Get user exit dependencies                                          
+- GVBPTDFL Get LR field dependencies                                           
+- GVBPTDLF Get logical file dependencies (calls GVBPGLFD)                      
+- GVBPTDJN Get look up dependencies (calls GVBPGJND)                           
+- GVBPTDLR Get logical record dependencies (calls GVBPGLRD)                    
+- GVBPTDPF Get physical file dependencies (calls GVBPGPFD)                     
+- GVBPTDVW Get view dependencies (calls GVBPVWDE)                              
+- GVBPVWPR Get view properties                                                 
+- GVBPGVER Get the version of the stored procedure build                       
+- GVBPINJF Insert lookup path source fields                                    
+- GVBPINLR Insert logical record fields                                        
+- GVBPINSE Persist component edit rights                                       
+- GVBPINVC Insert view columns                                                 
+- GVBPINVS Insert view column sources                                          
+- GVBPUPFD Update logical record fields                                        
+- GVBPUPVW Update view columns                                                 
+- GVBPUPVC Update view column sources                                          
+- GVBPUPLO Update view logic                                                   
