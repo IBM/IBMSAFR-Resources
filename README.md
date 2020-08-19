@@ -74,6 +74,19 @@ Folder Stored_Procedures_zOS_Scripts
 - GVBPUPVC Update view column sources                                          
 - GVBPUPLO Update view logic                                                   
 
+Folder Job_Control_Samples
+
+- @NJOBLIB.jcl  - JCL statements for joblib
+- N99999C1.jcl - CREATE SAFR RUN-CONTROL FILES 
+- N99999D1.jcl - PREPARE REFERENCE DATA 
+- N99999E1.jcl - EXTRACT EVENT DATA 
+- N99999F1.jcl - SORT, SUMMARIZE, AND FORMAT VIEWS 
+- N99999LJ.jcl - PRINT A JOIN LOGIC TABLE (JLT) FILE 
+- N99999LX.jcl - PRINT AN EXTRACT LOGIC TABLE (XLT) FILE 
+- N99999VC.jcl- COMPARE TWO VIEW DEFINITION PARAMETERS (VDP) FILES 
+- N99999VF.jcl - GENERATE FILE MANAGER TEMPLATES FOR A  VIEW DEFINITION PARAMETERS (VDP) FILE 
+- N99999VP.jcl - PRINT A VIEW DEFINITION PARAMETERS (VDP) FILE 
+
 
 ## Usage
 
