@@ -27,6 +27,8 @@ processing.
 
 ## Contents
 
+Folder DDL_zOS_Scripts
+
 - GVBQCDBT        Create Database and tablespace
 - GVBQCTBC        Create C_* Tables
 - GVBQCTBE        Create E_* Tables
@@ -40,6 +42,8 @@ processing.
 - GVBQINTB        Insert all other rows
 - GVBQINNX        Insert C_NEXTKEYID rows
 - GVBQDRAL        Drop the entire schema
+
+Folder Stored_Procedures_zOS_Scripts
 
 - GVBPCLEE Clear an environment                                                        
 - GVBPDELE Delete an environment                                               
